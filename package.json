@@ -1,0 +1,29 @@
+{
+  "name": "instant-web-search",
+  "displayName": "instant-web-search",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.58.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "main": "./build/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "instant-web-search.searchweb",
+        "title": "Searchweb"
+      }
+    ],
+    "configuration": {
+      "title": "instant-web-search",
+      "properties": {}
+    }
+  },
+  "activationEvents": [
+    "onCommand:instant-web-search.searchweb"
+  ],
+  "description": "Search the web in ur vscode!",
+  "publisher": "Sengolda"
+}
